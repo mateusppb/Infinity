@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    Crie uma página HTML que contenha um formulário de cadastro simples. Utilize as tags apropriadas para criar campos de entrada de dados, botões e uma área de texto.
+
+    Instruções:
+    Campo de Nome: Adicione um campo de entrada de texto (<input type="text">) com um rótulo (<label>) para o nome do usuário.
+    Campo de E-mail: Adicione um campo de entrada de e-mail (<input type="email">) com um rótulo.
+    Campo de Senha: Adicione um campo de entrada de senha (<input type="password">) com um rótulo.
+    Campo de Seleção (<select>): Adicione uma lista suspensa com várias opções (<option>) para que o usuário selecione o país.
+    Campo de Mensagem: Adicione uma área de texto (<textarea>) para que o usuário possa inserir uma mensagem ou descrição.
+    Botões: Adicione um botão para enviar o formulário (<button type="submit">) e outro para limpar os campos (<button type="reset">).
+    -->
+    <h1>Cadastro</h1>
+    <form action="#" method="post">
+        <p>
+            <label for="nome">Nome...</label>
+            <input type="text" id="nome">
+        </p>
+        <p>
+            <label for="email">E-mail...</label>
+            <input type="text" id="email">
+        </p>
+        <p>
+            <label for="senha">Senha...</label>
+            <input type="password" id="senha">
+        </p>
+        <p>
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="">Selecione um país</option>
+                <option value="brasil">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="canada">Argentina</option>
+                <option value="outro">Outro</option>
+            </select>
+        </p>
+        <p>
+            <label for="mensagem">Descrição:</label><br>
+            <textarea name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </p>
+    </form>
+</body>
+</html>
