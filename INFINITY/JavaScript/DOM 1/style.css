@@ -1,0 +1,36 @@
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 40px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 400px;
+      margin: 20px auto;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      margin: 6px;
+      background: #e4e4e4;
+      border-radius: 8px;
+    }
+    li.concluida {
+      color: rgb(128, 128, 128);
+      background-color: rgb(108, 255, 108);
+      opacity: 0.8;
+    }
+    button.remover {
+      background-color: #ff1900;
+      border: none;
+      color: white;
+      padding: 4px;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+    button.remover:hover {
+      background-color: #9c190b;
+    }
